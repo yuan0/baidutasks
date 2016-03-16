@@ -20,19 +20,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task2.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="task2.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csses/task2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="23" selection-start="688" selection-end="688" vertical-scroll-proportion="0.32387707">
+            <state line="175" column="23" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="task2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="49" selection-start="2631" selection-end="2631" vertical-scroll-proportion="-11.771428">
+            <state line="266" column="16" selection-start="7575" selection-end="7575" vertical-scroll-proportion="0.33959898">
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="task1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="49" selection-start="343" selection-end="362" vertical-scroll-proportion="1.1428572">
+            <state line="154" column="30" selection-start="4029" selection-end="4055" vertical-scroll-proportion="-15.2">
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <list>
         <option value="$PROJECT_DIR$/task1.html" />
         <option value="$PROJECT_DIR$/csses/task1.css" />
-        <option value="$PROJECT_DIR$/task2.html" />
         <option value="$PROJECT_DIR$/csses/task2.css" />
+        <option value="$PROJECT_DIR$/task2.html" />
       </list>
     </option>
   </component>
@@ -290,21 +290,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="343" selection-end="362" vertical-scroll-proportion="1.1428572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="49" selection-start="2631" selection-end="2631" vertical-scroll-proportion="-11.771428">
+        <state line="154" column="30" selection-start="4029" selection-end="4055" vertical-scroll-proportion="-15.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csses/task2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="23" selection-start="688" selection-end="688" vertical-scroll-proportion="0.32387707">
+        <state line="175" column="23" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="266" column="16" selection-start="7575" selection-end="7575" vertical-scroll-proportion="0.33959898">
           <folding />
         </state>
       </provider>
