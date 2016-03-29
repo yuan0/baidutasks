@@ -1,0 +1,736 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+html
+{
+    width: 1280px;
+    background-color: #ffffff;
+}
+header
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+
+}
+
+#new_world
+{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-right: 450px;
+    height: 60px;
+    width: 120px;
+    background:url("../imgs/7_icon_5.jpg") no-repeat;
+    background-size:60px 60px ;
+}
+header div a
+{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+}
+body header ul
+{
+    position: relative;
+    height: 60px;
+    width: 550px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+header ul a
+{
+    position: relative;
+    float: left;
+    padding:15px 15px 20px 20px;
+    color: #787b83;
+    text-decoration: none;
+}
+header ul a:hover
+{
+    color: #e74f4d;
+    border-bottom: 5px solid #e74f4d;
+}
+.login
+{
+    position: relative;
+    float: left;
+    padding:15px 15px 20px 20px;
+}
+.index
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 850px;
+    margin:2px 0;
+    background:url("../imgs/7_0.jpg");
+    color: #ffffff;
+
+}
+.index article
+{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.index article h1
+{
+    font-size: 54px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.index article p
+{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #fffdfd;
+}
+.index article a
+{
+    background-color:  #e74f4d;
+    position: relative;
+    float: left;
+    margin-top: 65px;
+    width: 330px;
+    height: 65px;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+}
+.howtonameit
+{
+    position: absolute;
+    top: 745px;
+    left: 0;
+    width: 1280px;
+    height: 250px;
+}
+.howtonameit figure
+{
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 250px;
+    background-color: #ffffff;
+
+}
+.howtonameit figure img
+{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 130px;
+    width: 60px;
+    height: 60px;
+
+}
+.howtonameit figure p
+{
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    color: #787b83;
+    font-size: 18px;
+    border-right: 2px solid #787b83;
+}
+.eee
+{
+    position: absolute;
+    top:1000px;
+    width: 1280px;
+    height: 360px;
+    background-color: #ededec;
+}
+.eee figure img
+{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 590px;
+    width: 100px;
+    height: 100px;
+}
+.eee figure p
+{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    color: #787b83;
+    font-size: 40px;
+}
+.dividing
+{
+    position: relative;
+
+}
+.fff
+{
+    position: absolute;
+    top:1350px;
+    width: 1280px;
+    height: 340px;
+    background: url("../imgs/7_1.jpg");
+    text-align: center;
+}
+.fff h1
+{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.fff h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #eaeaea;
+}
+.btn-select select
+{
+    outline: none;
+    -webkit-appearance: none;
+    position: relative;
+    width: 235px;
+    height: 35px;
+    font-size: 20px;
+    color: #787B83;
+    border: none;
+    background: transparent;
+}
+.btn-select select:hover
+{
+    border: 3px solid #be4e48;
+}
+.btn-select {
+    position: relative;
+    float: left;
+    margin-left: 45px;
+    width: 235px;
+    height: 35px;
+    background:url("../imgs/7_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.btn-select select option
+{
+    width: 50px;
+    height: 90px;
+}
+.btn-search
+{
+    position: relative;
+    float: left;
+    margin-left: 45px;
+    width: 235px;
+    height: 35px;
+    background-color: #be4e48;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.activity
+{
+    position: absolute;
+    top:1690px;
+    width: 1280px;
+    height: 600px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.activity div
+{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 400px;
+}
+.activity figure
+{
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 216px;
+    height: 400px;
+}
+.activity h1
+{
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.activity h2
+{
+    font-weight: 200;
+    font-size: 16px;
+    color: #808080;
+}
+.activity figure div
+{
+    position: relative;
+    float: left;
+    width: 216px;
+    height: 346px;
+    background-color: #ffffff;
+    border: 2px solid #bababa;
+}
+.activity figure div img
+{
+    position: relative;
+    margin-top: 8px;
+    width: 200px;
+    height: 330px;
+}
+.time
+{
+    position: absolute;
+    float: left;
+    top: 2290px;
+    width: 1280px;
+    height: 570px;
+    background:url("../imgs/7_8.jpg");
+}
+.time article
+{
+    position: relative;
+    float: left;
+    margin-top: 130px;
+    margin-left: 240px;
+    width: 370px;
+    color: #ffffff;
+    text-align: center;
+}
+.time article h1
+{
+    position: relative;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 55px;
+}
+.time article h2
+{
+    position: relative;
+    line-height: 105px;
+    font-weight: 700;
+    font-size: 125px;
+}
+.time article h3
+{
+    position: relative;
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 45px;
+}
+.time article h4
+{
+    position: relative;
+    float: left;
+    margin-left: 165px;
+    color: #000000;
+    font-weight: 100;
+    font-size: 20px;
+}
+.time article h5
+{
+    position: relative;
+    float: left;
+    color: #e74f4d;
+    font-weight: 100;
+    font-size: 20px;
+}
+.time article p
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 75px;
+    color: #7f7f7f;
+    width: 285px;
+}
+.more
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    width:100px;
+    height: 30px;
+    color: #e74f4d;
+    border: 1px solid #e74f4d;
+}
+.time article #sparel
+{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 10px;
+}
+.dot
+{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    background-color: #ffffff;
+}
+.about
+{
+    position: absolute;
+    float: left;
+    top:2860px;
+    width: 1280px;
+    height:520px ;
+    background: url(../imgs/7_9.jpg);
+}
+.about article
+{
+    position: relative;
+    float: left;
+    width: 426px;
+    height: 520px;
+    text-align: center;
+}
+.grey_bg
+{
+    background-color: #707070;
+}
+.white
+{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.red
+{
+    color: #e74f4d;
+    border: 1px solid #e74f4d;
+}
+.gray
+{
+    color: #707070;
+}
+.red_bg
+{
+    background-color: #e74f4d;
+    color: #ffffff;
+}
+.white_bg
+{
+    background-color: #ffffff;
+    color: #e74f4d;
+}
+.about article p
+{
+    position: relative;
+    float: left;
+    margin-top: 170px;
+    margin-left: 123px;
+    margin-bottom: 20px;
+    width: 180px;
+    font-size: 22px;
+    text-align: center;
+    color: ;
+}
+.no_border
+{
+    border:none;
+}
+.notop
+{
+    position: relative;
+    float: left;
+    margin-top: 0;
+    text-align: center;
+}
+.left_
+ {
+     position: relative;
+     float: left;
+     margin-left: 123px;
+     width: 180px;
+     height: 30px;
+ }
+.left_1
+{
+    position: relative;
+    float: left;
+    width: 1280px;
+    height: 10px;
+    line-height: 10px;
+}
+.aaa
+{
+    position: relative;
+    margin-left: 162px;
+}
+.joinus
+{
+    position: absolute;
+    float: left;
+    top:3380px;
+    height: 750px;
+    width: 1280px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.joinus h1
+{
+    position: relative;
+    float: left;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    width: 1280px;
+    font-size: 20px;
+    color: #000000;
+}
+.joinus p
+{
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    width: 1280px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #707070;
+}
+.joinus .more_info
+{
+    position: relative;
+    float: left;
+    margin-top: 95px;
+    margin-left:110px ;
+    width: 280px;
+    height: 300px;
+}
+.joinus .more_info article
+{
+    position: relative;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 18px;
+    height: 100px;
+    width: 100%;
+}
+.joinus .more_info article h3
+{
+    position: relative;
+    float: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight:700;
+    text-align: left;
+}
+.joinus  article p
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #707070;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: left;
+}
+.joinus  article a
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #707070;
+    font-size: 10px;
+    text-align: right;
+}
+.joinus table
+{
+    position: relative;
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 650px;
+    background-color: #ededee;
+    text-align: left;
+    font-size: 10px;
+    line-height:10px ;
+    color: #707070;
+    border: none;
+    border-collapse: collapse;
+}
+.joinus table td
+{
+    border:15px solid #ffffff;
+    height: 40px;
+    width: 325px;
+    vertical-align: top;
+}
+.joinus table label
+{
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.joinus table .textbox
+{
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    border: none;
+    background-color: #ededee;
+}
+.joinus table textarea
+{
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 600px;
+    height: 60px;
+    border: none;
+    background-color: #ededee;
+}
+.joinus table button
+{
+    position: relative;
+    float: left;
+    width: 650px;
+    height: 40px;
+    border: none;
+
+}
+.contactus
+{
+    position: absolute;
+    top:4120px;
+    float: left;
+    height: 420px;
+    width: 1280px;
+    background-color: #32363e;
+    color: #ffffff;
+}
+.contactus article
+{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+.contactus article h1
+{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.contactus article p
+{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+}
+.email
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 380px;
+    width: 430px;
+    height: 40px;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+}
+.btn-submit
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    background-color: #6f7178;
+    border: none;
+    color: #ffffff;
+}
+.contactus article ul
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 540px;
+    margin-bottom: 50px;
+    width:200px ;
+    height: 45px;
+}
+.contactus article ul a
+{
+    position: relative;
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+.tencent
+{
+    background: url("../imgs/7_icon_6.jpg");
+    background-size: cover;
+}
+.weibo
+{
+    background: url("../imgs/7_icon_7.jpg");
+    background-size: cover;
+}
+.twitter
+{
+    background: url("../imgs/7_icon_8.jpg");
+    background-size: cover;
+}
+.weixin
+{
+    background: url("../imgs/7_icon_9.jpg");
+    background-size: cover;
+}
+.div_new
+{
+    position: relative;
+    float: left;
+    width: 1280px;
+    height: 60px;
+    background-color: #2f2f38;
+    font-size: 10px;
+}
+.div_new p
+{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.div_new a
+{
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
