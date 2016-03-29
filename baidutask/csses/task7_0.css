@@ -80,6 +80,7 @@ header ul a:hover
     height: 850px;
     margin:2px 0;
     background:url("../imgs/7_0.jpg");
+    background-size: cover;
     color: #ffffff;
 
 }
