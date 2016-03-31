@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="csses/task9.css">
+</head>
+<body>
+<header>
+    <img id="square" src="imgs/8_icon_0.jpg">
+
+    <form action="" method="get">
+        <div class="search"><input type="text"/></div>
+        <!--搜索框-->
+    </form>
+    <a href="http://ife.baidu.com" target="_blank">
+        <img id="login" src="imgs/8_icon_1.jpg">登录
+    </a>
+</header>
+<aside>
+    <article>
+        <div>
+            <div id="head_img"></div>
+            <p id="name">yuan0</p>
+        </div>
+        <span>110<br>收藏</span>
+        <span>335<br>粉丝</span>
+    </article>
+    <nav>
+        <ul>
+            <li><a><img src="imgs/8_icon_3.png">个人报表</a></li>
+            <li onmousedown="this.style.height='210px'">
+                <a onmouseover="this.style.color='#ededed'" onmousedown="this.style.color='#ededed'">
+                    <img src="imgs/8_icon_4.png">个人收藏</a>
+                <ul class="ul-hidden">
+                    <li class="li-hidden">
+                        <a onmouseover="this.style.color='#ededed'" onmousedown="this.style.color='#ededed'">
+                            <img src="imgs/8_icon_7.png">文件一</a>
+                    </li>
+                    <li class="li-hidden">
+                        <a onmouseover="this.style.color='#ededed'" onmousedown="this.style.color='#ededed'">
+                            <img src="imgs/8_icon_7.png">文件二</a>
+                        <ul>
+                            <li class="li-hidden second">
+                                <a onmouseover="this.style.color='#ededed'" onmousedown="this.style.color='#ededed'"
+                                   onmouseout="this.style.color='#67778b'">
+                                    <img src="imgs/8_icon_8.png">文档1</a>
+                            </li>
+                            <li class="li-hidden second">
+                                <a onmouseover="this.style.color='#ededed'" onmousedown="this.style.color='#ededed'"
+                                   onmouseout="this.style.color='#67778b'">
+                                    <img src="imgs/8_icon_8.png">文档2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a><img src="imgs/8_icon_5.png">我的分享</a></li>
+            <li><a><img src="imgs/8_icon_4.png">图库</a></li>
+            <li><a><img src="imgs/8_icon_4.png">成长记录</a></li>
+            <li><a><img src="imgs/8_icon_6.png">账户信息</a></li>
+        </ul>
+    </nav>
+</aside>
+<section>
+    <header>
+        <a>c站</a>
+        <a>/</a>
+        <a>个人报表</a>
+        <a>/</a>
+        <a>文件一</a>
+        <a>/</a>
+        <a class="a-visited">文档一</a>
+    </header>
+    <div class="container">
+        <div class="col-1">
+            <table>
+                <tr>
+                    <td style="width:20%">
+                        <label>查询项</label>
+                        <select style="width: 75px;
+                        background: url('imgs/8_bg_0.png') #ffffff;background-size: cover;">
+                            <option>第一项</option>
+                        </select>
+                    </td>
+                    <td style="width:18%">
+                        <label>买方</label>
+                        <select style="width: 100px;margin-right: 0;
+                        background: url('imgs/8_bg_1.png') #ffffff;background-size: cover;">
+                            <option>小A</option>
+                        </select>
+                    </td>
+                    <td rowspan="2" style="width:8%">
+                        <button id="exchange"></button>
+                    </td>
+                    <td style="width:40%">
+                        <label>日期</label>
+                        <input type="text" value="2016-04-01">
+                        <label>总耗时</label>
+                        <select style="width: 75px;
+                        background: url('imgs/8_bg_0.png') #ffffff;background-size: cover;">
+                            <option>8天</option>
+                        </select>
+                    </td>
+                    <td rowspan="2" style="width:15%">
+                        <button class="btn-search">搜索</button>
+                    </td>
+                <tr>
+                    <td style="width:20%"></td>
+                    <td style="width:18%">
+                        <label>卖方</label>
+                        <select style="width: 100px;margin-right: 0;
+                        background: url('imgs/8_bg_1.png') #ffffff;background-size: cover;">
+                            <option>小C</option>
+                        </select>
+                    </td>
+                    <td style="width:40%">
+                        <label>人数</label>
+                        <select style="width: 75px;
+                        background: url('imgs/8_bg_0.png') #ffffff;background-size: cover;">
+                            <option>10人</option>
+                        </select>
+                        <label>成交项</label>
+                        <select style="width: 100px;
+                        background: url('imgs/8_bg_1.png') #ffffff;background-size: cover;">
+                            <option>10项</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div class="col-2">&lt;</div>
+        <div class="col-3">
+            <h1>10:00 am</h1>
+
+            <h2><p class="grey">&yen</p>1200</h2>
+        </div>
+        <div class="col-3">
+            <h1>11:00 am</h1>
+
+            <h2><p class="grey">&yen</p>1300</h2>
+        </div>
+        <div class="col-3">
+            <h1>12:00 am</h1>
+
+            <h2><p class="grey">&yen</p>1200</h2>
+        </div>
+        <div class="col-3">
+            <h1>01:00 pm</h1>
+
+            <h2><p class="grey">&yen</p>1400</h2>
+        </div>
+        <div class="col-3">
+            <h1>02:00 pm</h1>
+
+            <h2><p class="grey">&yen</p>1500</h2>
+        </div>
+        <div class="col-3">
+            <h1>03:00 pm</h1>
+
+            <h2><p class="grey">&yen</p>1800</h2>
+        </div>
+        <div class="col-2">&gt;</div>
+        <div class="col-4">
+            <span></span>
+            <button id="btn-history">历史查询</button>
+        </div>
+        <p id="tongji">2016年4月份统计</p>
+
+        <div class="col-5">
+            <hgroup>
+                <h1>113331</h1>
+
+                <h2>成交量</h2>
+            </hgroup>
+            <span></span>
+        </div>
+        <div class="col-5" style="border-left:5px solid #2289bf;">
+            <hgroup>
+                <h1>113331</h1>
+
+                <h2>成交量</h2>
+            </hgroup>
+            <span style="background-color: #2289bf;"></span>
+        </div>
+        <div class="col-5" style="border-left:5px solid #cf4a36;">
+            <hgroup>
+                <h1>113331</h1>
+
+                <h2>成交量</h2>
+            </hgroup>
+            <span style="background-color: #cf4a36;"></span>
+        </div>
+        <div class="col-5 no-right" style="border-left:5px solid #e2cd46;">
+            <hgroup>
+                <h1>113331</h1>
+
+                <h2>成交量</h2>
+            </hgroup>
+            <span style="background-color: #e2cd46;"></span>
+        </div>
+        <div class="col-6">
+            <header class="pro1">
+                第一组项目
+            </header>
+            <ul>
+                <a>项目一</a>
+                <a>项目二</a>
+                <a>项目三</a>
+                <a>项目四</a>
+                <a>项目五</a>
+            </ul>
+            <table>
+                <tbody>
+                <tr>
+                    <td>孟春</td>
+                    <td>初阳</td>
+                    <td>上春</td>
+                    <td>端月</td>
+                </tr>
+                <tr>
+                    <td>肇春</td>
+                    <td>仲春</td>
+                    <td>仲阳</td>
+                    <td>仲钟</td>
+                </tr>
+                <tr>
+                    <td>暮春</td>
+                    <td>契月</td>
+                    <td>花月</td>
+                    <td>嘉月</td>
+                </tr>
+                <tr>
+                    <td>维夏</td>
+                    <td>槐夏</td>
+                    <td>余月</td>
+                    <td>清和月</td>
+                </tr>
+                <tr>
+                    <td>仲夏</td>
+                    <td>超夏</td>
+                    <td>榴月</td>
+                    <td>蒲月</td>
+                </tr>
+                <tr>
+                    <td>杪夏</td>
+                    <td>暑月</td>
+                    <td>荷月</td>
+                    <td>且月</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-7">
+            <header class="pro1">
+                第一组项目
+            </header>
+            <table>
+                <tr>
+                    <th style="width: 100%;">标题</th>
+                </tr>
+                <tr>
+                    <td style="width: 100%;">项目报表三</td>
+                </tr>
+                <tr>
+                    <th style="width: 35%;" class="th-right">价格</th>
+                    <th style="width: 65%;">负责人</th>
+                </tr>
+                <tr>
+                    <td style="width: 35%;" class="th-right">&yen 158</td>
+                    <td style="width: 65%;">小A</td>
+                </tr>
+                <tr>
+                    <th style="width: 100%;">详细描述</th>
+                </tr>
+                <tr>
+                    <td style="width: 100%;height: 125px;">该项目目前负责人是...</td>
+                </tr>
+                <tr>
+                    <th style="width: 70%;">
+                        <input type="checkbox" style="margin-top: 8px;">&nbsp遵守保密协议
+                    </th>
+                    <th style="width: 30%;height: 30px;"><button class="btn-search btn-left">搜索</button></th>
+                </tr>
+            </table>
+
+        </div>
+        <div class="col-8">
+            <header class="pro1">
+                日历
+            </header>
+            <ul>
+                <select>
+                    <option>2016年</option>
+                    <option>2015年</option>
+                    <option>2014年</option>
+                    <option>2013年</option>
+                    <option>2012年</option>
+                    <option>2011年</option>
+                </select>
+                <select>
+                    <option>1月</option>
+                    <option>2月</option>
+                    <option>3月</option>
+                    <option selected="selected">4月</option>
+                    <option>5月</option>
+                    <option>6月</option>
+                    <option>7月</option>
+                    <option>8月</option>
+                    <option>9月</option>
+                    <option>10月</option>
+                    <option>11月</option>
+                    <option>12月</option>
+                </select>
+                <select>
+                    <option>标注日期</option>
+                </select>
+                <button id="btn-return">返回今天</button>
+            </ul>
+            <div class="col-8-1">
+                <a>一</a>
+                <a>二</a>
+                <a>三</a>
+                <a>四</a>
+                <a>五</a>
+                <a>六</a>
+                <a>日</a>
+            </div>
+            <div class="col-8-2">
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a>1<h1 style="color: #c90000;">愚人节</h1></a>
+                <a class="red">2<br><h1>廿五</h1></a>
+                <a class="red">3<br><h1>廿六</h1></a>
+            </div>
+            <div class="col-8-2">
+                <a>4<h1>廿七</h1></a>
+                <a>5<h1 style="color: #c90000;">清明</h1></a>
+                <a>6<h1>廿九</h1></a>
+                <a>7<h1>三月</h1></a>
+                <a>8<h1>初二</h1></a>
+                <a class="red">9<h1>初三</h1></a>
+                <a class="red">10<h1>初四</h1></a>
+            </div>
+            <div class="col-8-2">
+                <a>11<h1>初五</h1></a>
+                <a>12<h1>初六</h1></a>
+                <a>13<h1>初七</h1></a>
+                <a>14<h1>初八</h1></a>
+                <a>15<h1>初九</h1></a>
+                <a class="red">16<h1>初十</h1></a>
+                <a class="red">17<h1>十一</h1></a>
+            </div>
+            <div class="col-8-2">
+                <a>18<h1>十二</h1></a>
+                <a>19<h1>十三</h1></a>
+                <a>20<h1>十四</h1></a>
+                <a>21<h1>十五</h1></a>
+                <a>22<h1>十六</h1></a>
+                <a class="red">23<h1>十七</h1></a>
+                <a class="red">24<h1>十八</h1></a>
+            </div>
+            <div class="col-8-2">
+                <a>25<h1>十九</h1></a>
+                <a>26<h1>廿十</h1></a>
+                <a>27<h1>廿一</h1></a>
+                <a>28<h1>廿二</h1></a>
+                <a>29<h1>廿三</h1></a>
+                <a class="red">30<h1>廿四</h1></a>
+                <a></a>
+            </div>
+        </div>
+        <div class="col-9">
+            <header class="pro1">
+                汽车行业品牌榜
+            </header>
+            <table>
+                <thead>
+                <th class="tl-1">排名</th>
+                <th class="tl-2">品牌</th>
+                <th class="tl-3">搜索指数</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tl-1">1</td>
+                    <td class="tl-2">大众</td>
+                    <td class="tl-3"><p>48912001</p>
+                        <span>
+                            <div class="sp-1" style="width: 130px;background-color: #ed6e52;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">2</td>
+                    <td class="tl-2">丰田</td>
+                    <td class="tl-3"><p>29707333</p>
+                        <span>
+                            <div class="sp-1" style="width: 79px;background-color: #ef8150;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">3</td>
+                    <td class="tl-2">奥迪</td>
+                    <td class="tl-3"><p>23139070</p>
+                        <span>
+                            <div class="sp-1" style="width: 62px;background-color: #f29f4f;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">4</td>
+                    <td class="tl-2">本田</td>
+                    <td class="tl-3"><p>22885564</p>
+                        <span>
+                            <div class="sp-1" style="width: 61px;background-color: #81afc6;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">5</td>
+                    <td class="tl-2">福特</td>
+                    <td class="tl-3"><p>22324792</p>
+                        <span>
+                            <div class="sp-1" style="width: 59px;background-color: #73b8d9;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">6</td>
+                    <td class="tl-2">宝马</td>
+                    <td class="tl-3"><p>21444077</p>
+                        <span>
+                            <div class="sp-1" style="width: 57px;background-color: #79c2e5;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">7</td>
+                    <td class="tl-2">现代</td>
+                    <td class="tl-3"><p>20114969</p>
+                        <span>
+                            <div class="sp-1" style="width: 54px;background-color: #80ccf1;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">8</td>
+                    <td class="tl-2">气压</td>
+                    <td class="tl-3"><p>19251680</p>
+                        <span>
+                            <div class="sp-1" style="width: 51px;background-color: #8fcfe7;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">9</td>
+                    <td class="tl-2">奔驰</td>
+                    <td class="tl-3"><p>19172837</p>
+                        <span>
+                            <div class="sp-1" style="width: 50px;background-color: #96daf3;"></div>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tl-1">10</td>
+                    <td class="tl-2">别克</td>
+                    <td class="tl-3"><p>18544027</p>
+                        <span>
+                            <div class="sp-1" style="width: 49px;background-color: #9cdfe7;"></div>
+                        </span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>
